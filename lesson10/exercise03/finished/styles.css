@@ -1,0 +1,13 @@
+body
+{
+	margin: 0;
+	padding: 20px;
+	font-size: 100%;
+}
+
+@media print
+{
+	body { color: red; }
+}
+
+

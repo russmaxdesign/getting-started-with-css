@@ -1,0 +1,9 @@
+h1,h2,h3,h4,h5,h6 { border: 1px solid red; }
+
+p
+{
+	background: yellow;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}

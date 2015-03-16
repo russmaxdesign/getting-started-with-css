@@ -1,0 +1,16 @@
+/* heading styles */
+
+h1,h2,h3,h4,h5,h6 { border: 1px solid red; }
+
+/*
+paragraph styles:
+This will be used for all paragraphs across the site
+*/
+
+p
+{
+	background: yellow;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}

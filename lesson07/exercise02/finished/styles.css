@@ -1,0 +1,73 @@
+body
+{
+	margin: 0;
+	padding: 20px;
+	font-size: 100%;
+}
+
+h1 { margin: 0 0 .5em; }
+
+h2,strong
+{
+	margin: 0;
+	border: 1px solid red;
+	background: rgba(255,255,0,.5);
+}
+
+.container
+{
+	width: 50em;
+	margin: 0 auto;
+	border: 1px solid blue;
+}
+
+/* add rules here */
+h2 { position: relative; }
+
+/*
+1. h2 out of flow
+2. h2 stays in the same position - does not move to the left or right
+3. h2 does not shrink-wrap - stays a block level element
+4. content does not reflow under the h2
+*/
+
+h2 { left: 20px; }
+h2 { top: 20px; }
+h2 { left: -20px; }
+h2 { top: -20px; }
+
+h2
+{
+	left: 0;
+	top: 0;
+}
+
+h2 { width: 300px; }
+h2 { height: 300px; }
+
+strong { position: relative; }
+
+/*
+1. strong out of flow
+2. strong stays in the same position - does not move to the left or right
+3. strong does not shrink-wrap - stays an inline element
+4. content does not reflow under the strong
+*/
+
+strong { padding: 2em; }
+
+/* padding only affects content on either side of element as it is an inline element */
+
+strong { left: 20px; }
+strong { top: 20px; }
+strong { left: -20px; }
+strong { top: -20px; }
+strong
+{
+	left: 0;
+	top: 0;
+}
+
+strong { width: 300px; }
+
+/* width does not work as it is an inline element */

@@ -1,0 +1,9 @@
+/* inheritance example */
+body
+{
+	font-family: arial, helvetica, sans-serif;
+	font-size: 90%;
+}
+
+h1, h2, h3, h4, h5, h6 { font-family: georgia, times, serif; }
+h1 { font-size: 220%; }

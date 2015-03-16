@@ -1,0 +1,12 @@
+body
+{
+	margin: 0;
+	padding: 20px;
+	font-size: 100%;
+}
+
+h1 { margin: 0 0 .5em; }
+h2 { margin: 0; }
+.test { background: yellow; }
+
+/* add rules here */

@@ -1,0 +1,28 @@
+body
+{
+	margin: 0;
+	padding: 20px;
+	font-size: 100%;
+}
+
+h1 { margin: 0 0 .5em; }
+h2 { margin: 0; }
+
+.test
+{
+	background: yellow;
+	margin: 0 0 1em;
+}
+
+.test06,
+.test07,
+.test08,
+.test09
+{
+	width: 250px;
+	height: 200px;
+	float: left;
+	margin-right: 1em;
+}
+
+/* add rules here */

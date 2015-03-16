@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Lesson 05: Exercise 01 - Understanding specificity - start</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<h1>
+			Lesson 05: Exercise 01 - Understanding specificity - start
+		</h1>
+		<h2>
+			This is a heading level 2
+		</h2>
+		<p>
+			Lorem ipsum dolor sit amet consect etuer adipi scing elit sed diam nonummy nibh euismod tinunt ut laoreet dolore magna aliquam erat volut. 
+		</p>
+		<h2 class="news" id="news">
+			This is a heading level 2
+		</h2>
+		<p>
+			Lorem ipsum dolor sit amet consect etuer adipi scing elit sed diam nonummy nibh euismod tinunt ut laoreet dolore magna aliquam erat volut.
+		</p>
+		<table>
+			<thead>
+				<tr>
+					<th>Rule</th>
+					<th>Inline</th>
+					<th>IDs</th>
+					<th>Classes</th>
+					<th>Types</th>
+					<th>Specificity</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><code>h2 { color: green; }</code></td>
+					<td>0</td>
+					<td>0</td>
+					<td>0</td>
+					<td><b>1</b></td>
+					<td>0, 0, 0, <b>1</b></td>
+				</tr>
+				<tr>
+					<td><code>.news { color: blue; }</code></td>
+					<td>0</td>
+					<td>0</td>
+					<td><b>1</b></td>
+					<td>0</td>
+					<td>0, 0, <b>1</b>, 0</td>
+				</tr>
+				<tr>
+					<td><code>h2.news { color: orange; }</code></td>
+					<td>0</td>
+					<td>0</td>
+					<td><b>1</b></td>
+					<td><b>1</b></td>
+					<td>0, 0, <b>1</b>, <b>1</b></td>
+				</tr>
+				<tr>
+					<td><code>h2[id] { color: grey; }</code></td>
+					<td>0</td>
+					<td>0</td>
+					<td><b>1</b></td>
+					<td><b>1</b></td>
+					<td>0, 0, <b>1</b>, <b>1</b></td>
+				</tr>
+				<tr>
+					<td><code>h2[class] { color: olive; }</code></td>
+					<td>0</td>
+					<td>0</td>
+					<td><b>1</b></td>
+					<td><b>1</b></td>
+					<td>0, 0, <b>1</b>, <b>1</b></td>
+				</tr>
+				<tr>
+					<td><code>h2[class=news] { color: lime; }</code></td>
+					<td>0</td>
+					<td>0</td>
+					<td><b>1</b></td>
+					<td><b>1</b></td>
+					<td>0, 0, <b>1</b>, <b>1</b></td>
+				</tr>
+				<tr>
+					<td><code>#news { color: purple; }</code></td>
+					<td>0</td>
+					<td><b>1</b></td>
+					<td>0</td>
+					<td>0</td>
+					<td>0, <b>1</b>, 0, 0</td>
+				</tr>
+				<tr>
+					<td><code>h2#news { color: aqua; }</code></td>
+					<td>0</td>
+					<td><b>1</b></td>
+					<td>0</td>
+					<td><b>1</b></td>
+					<td>0, <b>1</b>, 0, <b>1</b></td>
+				</tr>
+				<tr>
+					<td><code>&lt;h2 style="color: red;"&gt;</code></td>
+					<td><b>1</b></td>
+					<td>0</td>
+					<td>0</td>
+					<td>0</td>
+					<td><b>1</b>, 0, 0, 0</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+	</html>

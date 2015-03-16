@@ -1,0 +1,113 @@
+/* -----------------------------------
+base styles
+----------------------------------- */
+
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #444;
+	background: #FFECAE;
+	font: 1em/1.5 helvetica, arial, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	margin: 1.5em 0 .5em;
+	color: #744900;
+	line-height: 1.1;
+}
+
+h1
+{
+	margin: 0;
+	color: #fff;
+}
+
+h2 { text-shadow: 0 5px 5px #aaa; }
+p { margin: 0 0 1.5em; }
+
+blockquote
+{
+	margin: 2em 0;
+	padding: 1em;
+	border: 1px solid #999;
+	font-size: 1.2em;
+	font-style: italic;
+	box-shadow: 0 5px 5px #aaa;
+}
+
+table
+{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th,td
+{
+	padding: .5em;
+	border: 1px solid #777;
+	text-align: left;
+	vertical-align: top;
+}
+
+th { background-color: #eee; }
+
+/* -----------------------------------
+class styles
+----------------------------------- */
+
+.container
+{
+	width: 50em;
+	margin: 0 auto;
+	background: #fff;
+}
+
+.header
+{
+	margin: 0;
+	padding: 2em 2em;
+	color: #fff;
+	background: #000;
+}
+
+.nav
+{
+	background: #744900;
+	padding: 1em 2em;
+}
+
+.nav ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.nav li
+{
+	display: inline;
+	margin: 0 1em 0 0;
+}
+
+.nav a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+.main { padding: 2em; }
+.intro { margin: 0 0 .5em; }
+
+.source
+{
+	margin: 0;
+	font-size: .6em;
+	font-style: normal;
+}
+
+/* -----------------------------------
+print styles
+----------------------------------- */
+

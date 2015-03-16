@@ -1,0 +1,53 @@
+body
+{
+	margin: 0;
+	padding: 20px;
+	font-size: 100%;
+}
+
+h1 { margin: 0 0 .5em; }
+
+h2
+{
+	margin: 0;
+	border: 1px solid red;
+	background: rgba(255,255,0,.5);
+}
+
+.container
+{
+	width: 50em;
+	margin: 0 auto;
+	border: 1px solid blue;
+}
+
+/* add rules here */
+h2 { position: fixed; }
+
+/*
+1. h2 out of flow
+2. h2 stays in the same position - does not move to the left or right
+3. h2 shrink-wraps
+4. content reflows under the h2
+5. h2 will remain fixed when page is scrolled
+*/
+
+h2 { left: 20px; }
+h2 { top: 20px; }
+h2 { left: -20px; }
+h2 { top: -20px; }
+
+h2
+{
+	left: 0;
+	top: 0;
+}
+
+h2
+{
+	left: 0;
+	right: 0;
+}
+
+h2 { width: 300px; }
+h2 { height: 300px; }
