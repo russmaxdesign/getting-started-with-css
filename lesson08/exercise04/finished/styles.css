@@ -1,0 +1,24 @@
+body
+{
+	margin: 0;
+	padding: 20px;
+	font-size: 100%;
+}
+
+h1 { margin: 0 0 .5em; }
+
+.container
+{
+	overflow: hidden;
+	width: 50em;
+	margin: 0 auto 1em;
+	clear: both;
+}
+
+/* add rules here */
+.float01 { float: left; }
+.float02 { float: right; }
+
+.clear01 { clear: left; }
+.clear02 { clear: right; }
+.clear03 { clear: both; }

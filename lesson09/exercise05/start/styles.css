@@ -1,0 +1,45 @@
+body
+{
+	margin: 0;
+	padding: 20px;
+	font-size: 100%;
+}
+
+h1 { margin: 0 0 .5em; }
+
+.example
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100px;
+	height: 100px;
+	margin: 0 2em 2em 0;
+	border: 1px dotted red;
+}
+
+.example01
+{
+	left: 100px;
+	top: 100px;
+}
+
+.example02
+{
+	left: 200px;
+	top: 200px;
+}
+
+.example03
+{
+	left: 300px;
+	top: 300px;
+}
+
+.example04
+{
+	left: 400px;
+	top: 400px;
+}
+
+/* add rules here */

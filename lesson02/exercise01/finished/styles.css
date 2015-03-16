@@ -1,0 +1,17 @@
+h1 { font-size: 3em; } 
+
+h2 { font-family: Helvetica, Arial, sans-serif; } 
+
+h3 { color: red; }
+
+h4 { background-color: #ffff00; } 
+
+p { line-height: 1.5em; } 
+
+ul { border: 1px solid red; }
+
+ol { font-style: italic; } 
+
+li { font-weight: bold; }
+
+blockquote { width: 20em; }

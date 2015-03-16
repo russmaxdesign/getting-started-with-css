@@ -1,0 +1,50 @@
+body
+{
+	margin: 0;
+	padding: 20px;
+	font-size: 100%;
+}
+
+h1 { margin: 0 0 .5em; }
+
+h2
+{
+	margin: 0;
+	border: 1px solid red;
+	background: rgba(255,255,0,.5);
+}
+
+.container
+{
+	width: 50em;
+	margin: 0 auto;
+	border: 1px solid blue;
+}
+
+/* add the property */
+h2 { position: absolute; }
+
+/* positioned against? */
+h2
+{
+	left: 0;
+	top: 0;
+}
+
+.container { position: relative; }
+
+/* understanding values */
+h2 { left: 20px; }
+h2 { left: -20px; }
+h2 { top: 20px; }
+h2 { top: -20px; }
+
+/* stretched */
+h2
+{
+	left: 0;
+	right: 0;
+}
+
+/* sized */
+h2 { width: 300px; }

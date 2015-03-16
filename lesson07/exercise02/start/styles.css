@@ -1,0 +1,28 @@
+body
+{
+	margin: 0;
+	padding: 20px;
+	font-size: 100%;
+}
+
+h1 { margin: 0 0 .5em; }
+
+h2,strong
+{
+	margin: 0;
+	border: 1px solid red;
+	background: yellow;
+}
+
+.container
+{
+	width: 50em;
+	margin: 0 auto;
+	border: 1px solid blue;
+}
+
+/* add the property */
+
+/* understanding values */
+
+/* sized */

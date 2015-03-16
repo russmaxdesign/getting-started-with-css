@@ -1,0 +1,26 @@
+body
+{
+	margin: 0;
+	padding: 20px;
+	font-size: 100%;
+}
+
+h1 { margin: 0 0 .5em; }
+
+.example01
+{
+	width: 500px;
+	height: 200px;
+	border: 1px dotted red;
+}
+
+/* add rules here */
+.example01
+{
+	background-image: url(a.jpg);
+	background-repeat: repeat-x;
+	background-position: 0 50%;
+	background-color: yellow;
+}
+
+

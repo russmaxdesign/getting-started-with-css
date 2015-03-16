@@ -1,0 +1,13 @@
+body
+{
+	margin: 0;
+	padding: 20px;
+	font-size: 100%;
+	background-image: url(a.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+h1 { margin: 0 0 .5em; }
+
+/* add rules here */

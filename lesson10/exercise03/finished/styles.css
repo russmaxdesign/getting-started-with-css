@@ -1,0 +1,11 @@
+body
+{
+	margin: 0;
+	padding: 20px;
+	font-size: 100%;
+}
+
+@media screen, print
+{
+	body { color: red; }
+}

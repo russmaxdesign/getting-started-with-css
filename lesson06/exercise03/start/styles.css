@@ -1,0 +1,26 @@
+body
+{
+	margin: 0;
+	padding: 20px;
+	font-size: 100%;
+}
+
+h1 { margin: 0 0 .5em; }
+h2 { margin: 0; }
+
+.test
+{
+	display: inline-block;
+	background: yellow;
+}
+
+.test06,
+.test07,
+.test08,
+.test09
+{
+	width: 140px;
+	height: 30px;
+}
+
+/* add rules here */

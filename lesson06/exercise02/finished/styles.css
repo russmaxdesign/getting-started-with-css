@@ -1,0 +1,18 @@
+body
+{
+	margin: 0;
+	padding: 20px;
+	font-size: 100%;
+}
+
+h1 { margin: 0 0 .5em; }
+h2 { margin: 0; }
+.test { background: yellow; }
+
+/* add rules here */
+
+.test01 { width: 200px; }
+.test02 { height: 60px; }
+.test03 { margin: 2em; }
+.test04 { padding: 2em; }
+.test05 { border: 1em solid red; }

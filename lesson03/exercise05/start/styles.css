@@ -1,0 +1,55 @@
+/* type selectors */
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: arial, helvetica, sans-serif;
+}
+
+h1 { margin: 0; }
+h2,h3,h4,h5,h6 { color: green; }
+
+/* class selectors */
+.container
+{
+	width: 50em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav
+{
+	padding: 1em 2em;
+	background: green;
+}
+
+.intro
+{
+	font-size: 1.2em;
+	color: gray;
+}
+
+/* ID selectors */
+#header,#footer
+{
+	padding: 2em;
+	color: #fff;
+	background: #000;
+}
+
+#main { margin: 1em 2em; }
+
+/* universal selectors */
+/* *
+{
+	margin: 0;
+	padding: 0;
+} */
+
+/* descendant selectors */
+
+/* child selectors */
+
+/* adjacent sibling selectors */
+
+/* link pseudo-class selectors */

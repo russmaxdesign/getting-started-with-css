@@ -1,0 +1,42 @@
+body
+{
+	margin: 0;
+	padding: 20px;
+	font-size: 100%;
+}
+
+h1 { margin: 0 0 .5em; }
+
+.test
+{
+	width: 10em;
+	height: 10em;
+	border: 1px solid red;
+	position: absolute;
+}
+
+.test01
+{
+	left: 5em;
+	top: 5em;
+	background: yellow;
+}
+
+.test02
+{
+	left: 11em;
+	top: 11em;
+	background: lime;
+}
+
+.test03
+{
+	left: 14em;
+	top: 14em;
+	background: #ddd;
+}
+
+/* add rules here */
+
+
+

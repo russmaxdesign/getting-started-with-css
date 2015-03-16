@@ -1,0 +1,49 @@
+body
+{
+	margin: 0;
+	padding: 20px;
+	font-size: 100%;
+}
+
+h1 { margin: 0 0 .5em; }
+
+h2
+{
+	margin: 0;
+	border: 1px solid red;
+	background: yellow;
+}
+
+.container
+{
+	width: 50em;
+	margin: 0 auto;
+	border: 1px solid blue;
+}
+
+/* add the property */
+h2 { position: fixed; }
+
+/* understanding values */
+h2 { left: 20px; }
+h2 { top: 20px; }
+
+/* stretched */
+h2
+{
+	left: 0;
+	right: 0;
+}
+
+/* sized */
+h2 { width: 300px; }
+
+
+
+
+
+
+
+
+
+

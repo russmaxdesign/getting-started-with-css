@@ -1,0 +1,32 @@
+body
+{
+	margin: 0;
+	padding: 20px;
+	font-size: 100%;
+}
+
+h1 { margin: 0 0 .5em; }
+
+h2
+{
+	margin: 0;
+	border: 1px solid red;
+	background: rgba(255,255,0,.5);
+}
+
+.container
+{
+	width: 50em;
+	margin: 0 auto;
+	border: 1px solid blue;
+}
+
+/* add the property */
+
+/* positioned against? */
+
+/* understanding values */
+
+/* stretched */
+
+/* sized */

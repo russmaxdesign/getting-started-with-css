@@ -1,0 +1,30 @@
+body
+{
+	margin: 0;
+	padding: 20px;
+	font-size: 120%;
+}
+
+table
+{
+	width: 40em;
+	border-collapse: collapse;
+}
+
+th,td
+{
+	padding: .5em;
+	border: 1px solid #777;
+	text-align: left;
+	vertical-align: top;
+}
+
+th { background-color: #eee; }
+
+/* add rules here */
+
+
+
+
+
+

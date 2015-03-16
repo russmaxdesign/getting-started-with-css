@@ -1,0 +1,22 @@
+body
+{
+	margin: 0;
+	padding: 20px;
+	font-size: 100%;
+}
+
+h1 { margin: 0 0 .5em; }
+
+.example
+{
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 0 2em 2em 0;
+	border: 20px dotted red;
+	background-image: url(a.jpg);
+}
+
+.example03 { clear: both; }
+
+/* add rules here */
