@@ -7,13 +7,14 @@ body
 }
 
 h1 { margin: 0; }
-h2, h3, h4, h5, h6 { color: green; }
+h2,h3,h4,h5,h6 { color: green; }
 
 /* class selectors */
 .container
 {
 	width: 50em;
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .nav
@@ -29,7 +30,7 @@ h2, h3, h4, h5, h6 { color: green; }
 }
 
 /* ID selectors */
-#header, #footer
+#header,#footer
 {
 	padding: 2em;
 	color: #fff;
@@ -38,13 +39,12 @@ h2, h3, h4, h5, h6 { color: green; }
 
 #main { margin: 1em 2em; }
 
-/* universal selectors
-*
+/* universal selectors */
+/* *
 {
 	margin: 0;
 	padding: 0;
-}
- */
+} */
 
 /* descendant selectors */
 .nav ul

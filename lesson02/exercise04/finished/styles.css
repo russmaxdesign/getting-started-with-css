@@ -1,12 +1,10 @@
 /* heading styles */
-
 h1,h2,h3,h4,h5,h6 { border: 1px solid red; }
 
-/*
-paragraph styles:
-This will be used for all paragraphs across the site
+/* 
+paragraph styles 
+This will be used to style all paragraphs
 */
-
 p
 {
 	background: yellow;
