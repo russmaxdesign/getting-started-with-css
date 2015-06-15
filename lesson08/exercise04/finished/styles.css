@@ -15,10 +15,10 @@ h1 { margin: 0 0 .5em; }
 	clear: both;
 }
 
-.example01 { float: left; }
-.example02 { float: right; }
-
 /* add rules here */
-.example03 { clear: left; }
-.example04 { clear: right; }
-.example05 { clear: both; }
+.float01 { float: left; }
+.float02 { float: right; }
+
+.clear01 { clear: left; }
+.clear02 { clear: right; }
+.clear03 { clear: both; }

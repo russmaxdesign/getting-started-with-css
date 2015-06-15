@@ -7,7 +7,11 @@ body
 
 h1 { margin: 0 0 .5em; }
 
-strong { border: 1px solid red; }
+strong
+{
+	border: 1px solid red; 
+	background: yellow;
+}
 
 .container
 {

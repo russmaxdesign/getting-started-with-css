@@ -1,4 +1,4 @@
-@import url("print.css") print;
+@import url(print.css) screen, print;
 
 body
 {
@@ -6,4 +6,3 @@ body
 	padding: 20px;
 	font-size: 100%;
 }
-

@@ -22,11 +22,9 @@ th,td
 th { background-color: #eee; }
 
 /* add rules here */
+
 h2 { color: green; }
 .news { color: blue; }
 h2.news { color: orange; }
-h2[id] { color: grey; }
-h2[class] { color: olive; }
-h2[class="news"] { color: lime; }
-#news { color: purple; }
-h2#news { color: aqua; }
+#intro { color: purple; }
+h2#intro { color: aqua; }

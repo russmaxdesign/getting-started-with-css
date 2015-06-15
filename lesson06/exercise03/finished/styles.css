@@ -11,7 +11,7 @@ h2 { margin: 0; }
 .test
 {
 	display: inline-block;
-	background: rgba(255,255,0,.7);
+	background: yellow;
 }
 
 .test06,
@@ -24,6 +24,7 @@ h2 { margin: 0; }
 }
 
 /* add rules here */
+
 .test01 { width: 200px; }
 .test02 { height: 60px; }
 .test03 { margin: 2em; }

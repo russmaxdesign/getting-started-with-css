@@ -43,7 +43,7 @@ h1 { margin: 0 0 .5em; }
 }
 
 /* add rules here */
-.example01 { background-color: none; }
+.example01 { background-color: transparent; }
 .example02 { background-color: yellow; }
 .example03 { background-color: #ddd; }
 .example04 { background-color: rgba(255,255,0,.5); }

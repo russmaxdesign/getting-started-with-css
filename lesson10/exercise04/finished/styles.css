@@ -111,7 +111,7 @@ class styles
 print styles
 ----------------------------------- */
 
-@media screen
+@media print
 {
 	*
 	{
@@ -121,22 +121,7 @@ print styles
 		text-shadow: none !important;
 	}
 	
-	a,
-	a:visited { text-decoration: underline; }
-	a[href]:after { content: " (" attr(href) ")"; }
-	tr,
-	img { page-break-inside: avoid; }
 	img { max-width: 100% !important; }
 	
-	p,
-	h2,
-	h3
-	{
-		orphans: 3;
-		widows: 3;
-	}
-	
-	h2,
-	h3 { page-break-after: avoid; }
 	.nav { display: none; }
 }

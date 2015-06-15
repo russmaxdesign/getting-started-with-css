@@ -5,9 +5,7 @@ body
 	font-size: 100%;
 }
 
-@media print
+@media screen, print
 {
 	body { color: red; }
 }
-
-

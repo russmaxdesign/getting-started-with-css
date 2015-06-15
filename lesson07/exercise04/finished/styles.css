@@ -31,12 +31,12 @@ h1 { margin: 0 0 .5em; }
 
 .test03
 {
-	left: 16em;
-	top: 16em;
+	left: 14em;
+	top: 14em;
 	background: #ddd;
 }
 
 /* add rules here */
 .test01 { z-index: 10; }
 .test02 { z-index: -5; }
-.test03 { z-index: 2; }
+.test03 { z-index: 20; }

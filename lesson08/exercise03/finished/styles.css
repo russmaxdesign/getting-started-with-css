@@ -7,7 +7,11 @@ body
 
 h1 { margin: 0 0 .5em; }
 
-strong { border: 1px solid red; }
+strong
+{
+	border: 1px solid red; 
+	background: yellow;
+}
 
 .container
 {
@@ -18,7 +22,9 @@ strong { border: 1px solid red; }
 }
 
 /* add rules here */
-.example01 { float: left; }
-.example01 { margin: 20px; }
-.example01 { padding: 20px; }
-.example01 { border: 10px solid red; }
+.example01 
+{
+	float: left; 
+	width: 300px;
+	border: 30px solid red;
+}

@@ -11,7 +11,7 @@ h2 { margin: 0; }
 .test
 {
 	display: inline-block;
-	background: rgba(255,255,0,.7);
+	background: yellow;
 }
 
 .test06,
